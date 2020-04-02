@@ -1,0 +1,51 @@
+body,
+html{
+
+	width: 100%;
+	height: 100%;
+	font-family: 'montserrat' , sans-serif;
+	background: url(header.jpg) no-repeat center center fixed;
+	background-size: center;
+
+}
+
+h1{
+	font-size: 3em;
+	color:#e2dbdb;
+
+}
+
+h5{
+	color:#f7e8e8;
+}
+
+hr{/*horizontal line */
+	border-color:#f05f44;
+	border-width: 3px;
+	max-width: 80px;/*la longeur de ligne*/
+}
+
+.btn-xl{
+
+	padding: 1rem 2rem;/*demension inside the button*/
+
+}
+
+.btn{
+	font-weight: 100;/*font weight */ 
+	border-radius:3500px;/*make edges more circular*/
+	text-transform: uppercase;/*make text UPPERCASE*/
+}
+.btn-primary{
+	background-color: #f05f44;/*button background color*/
+	border-color: #f05f44;/*button border color*/
+
+}
+.btn-primary:hover{
+	background-color: #ee4b08;/*button background color*/
+	border-color:#ee4b08;/*button border color*/
+	border-width: 4px;/*border width when hovered*/
+}
+.buffer{
+	height: 8rem;/*create space between the text and button */
+}
